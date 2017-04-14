@@ -23,7 +23,7 @@ app.use(passport.session());
 app.use('/public', express.static(process.cwd() + '/public'));
 app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
 
-mongoose.connect('mongodb://localhost:27017/pic-terest');
+mongoose.connect(process.env.MONGODB_URI);
 
 routes(app, passport);
 
