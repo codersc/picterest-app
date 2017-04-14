@@ -1,0 +1,36 @@
+#your-pics-btn {
+    margin-right: 1%;
+}
+
+#add-pic-form {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.grid {
+    text-align: center;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+    width: 160px;
+    height: 120px;
+    float: left;
+    background: #D26;
+    border: 2px solid #333;
+    border-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+}
+
+.grid-item--width2 { width: 320px; }
+.grid-item--height3 { height: 360px; }
+
+img {
+    max-width: 310px;
+    max-height: 260px;
+}
